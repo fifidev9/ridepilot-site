@@ -1,89 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Privacy Policy — RidePilot AI</title>
-  <style>
-    * { margin:0; padding:0; box-sizing:border-box; }
-    body { background:#060C18; color:#E8EDF5; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; line-height:1.7; }
-    nav { display:flex; justify-content:space-between; align-items:center; padding:20px 40px; border-bottom:1px solid #1A2A40; }
-    .brand { font-size:18px; font-weight:900; letter-spacing:3px; text-decoration:none; color:#E8EDF5; }
-    .brand span { color:#F5A623; }
-    .content { max-width:720px; margin:0 auto; padding:60px 40px; }
-    h1 { font-size:36px; font-weight:900; color:#F5A623; margin-bottom:8px; }
-    .updated { font-size:13px; color:#8896B0; margin-bottom:48px; }
-    h2 { font-size:20px; font-weight:700; color:#E8EDF5; margin:36px 0 12px; }
-    p { font-size:15px; color:#8896B0; margin-bottom:14px; }
-    ul { margin:0 0 14px 20px; color:#8896B0; font-size:15px; }
-    ul li { margin-bottom:6px; }
-    a { color:#F5A623; }
-    footer { text-align:center; padding:40px; border-top:1px solid #1A2A40; color:#8896B0; font-size:13px; }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — RidePilot AI</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #060C18; color: #E8EDF5; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; padding: 40px 20px; max-width: 720px; margin: 0 auto; line-height: 1.7; }
+  h1 { color: #F5A623; font-size: 28px; margin-bottom: 8px; }
+  h2 { color: #F5A623; font-size: 18px; margin: 32px 0 12px; }
+  p  { color: #8896B0; margin-bottom: 14px; font-size: 15px; }
+  a  { color: #00C8E6; }
+  .updated { color: #4A5568; font-size: 13px; margin-bottom: 32px; }
+  hr { border: none; border-top: 1px solid #1E2840; margin: 32px 0; }
+</style>
 </head>
 <body>
-  <nav>
-    <a href="index.html" class="brand">RIDE<span>PILOT</span> AI</a>
-  </nav>
-  <div class="content">
-    <h1>Privacy Policy</h1>
-    <p class="updated">Last updated: March 25, 2026</p>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: July 22, 2026</p>
 
-    <p>RidePilot AI ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use the RidePilot AI mobile application.</p>
+  <p>RidePilot AI ("we", "us", or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and protect your information when you use our mobile application and web dashboard.</p>
 
-    <h2>Information We Collect</h2>
-    <p>We collect the following types of information:</p>
-    <ul>
-      <li><strong>Account Information:</strong> Email address and password used to create your account.</li>
-      <li><strong>Trip Data:</strong> Earnings, mileage, dates, pickup and dropoff addresses you enter or import.</li>
-      <li><strong>Vehicle Information:</strong> Vehicle details and maintenance records you provide.</li>
-      <li><strong>Usage Data:</strong> How you interact with the app to improve our service.</li>
-    </ul>
+  <h2>1. Information We Collect</h2>
+  <p><strong style="color:#E8EDF5;">Account Information:</strong> Email address and password when you create an account.</p>
+  <p><strong style="color:#E8EDF5;">Trip Data:</strong> Trip details you log including dates, fares, tips, mileage, pickup and dropoff locations, and platform information (Uber, Lyft, DoorDash, etc.).</p>
+  <p><strong style="color:#E8EDF5;">Expense Data:</strong> Business expense information you enter including amounts, categories, and descriptions.</p>
+  <p><strong style="color:#E8EDF5;">Receipt Images:</strong> Photos of receipts you choose to scan using the Receipt Scanner feature. These images are processed by Claude AI (Anthropic) and are not permanently stored.</p>
+  <p><strong style="color:#E8EDF5;">Usage Data:</strong> App usage patterns to improve the service.</p>
 
-    <h2>How We Use Your Information</h2>
-    <ul>
-      <li>To provide and improve the RidePilot AI service</li>
-      <li>To calculate your True Net earnings and tax estimates</li>
-      <li>To power the AI Strategist analysis using your trip data</li>
-      <li>To sync your data securely across your devices</li>
-      <li>To send notifications you have enabled</li>
-    </ul>
+  <h2>2. How We Use Your Information</h2>
+  <p>We use your information to provide and improve the RidePilot AI service, including trip tracking, earnings analysis, tax estimation, and AI-powered strategy recommendations. We do not sell your personal information to third parties.</p>
 
-    <h2>AI Processing</h2>
-    <p>RidePilot AI uses Claude AI (by Anthropic) to analyze your trip data and provide earnings insights. Your trip data is sent to Anthropic's API to generate these insights. Anthropic's privacy policy applies to this processing. We do not sell your data to Anthropic or any third party.</p>
+  <h2>3. Data Storage and Security</h2>
+  <p>Your data is stored securely using Supabase, a SOC 2 compliant database provider. All data is encrypted in transit and at rest. We use industry-standard security measures to protect your information.</p>
 
-    <h2>Data Storage</h2>
-    <p>Your data is stored securely using Supabase, a cloud database provider. Data is encrypted in transit and at rest. We retain your data as long as your account is active. You may request deletion of your data at any time by contacting us.</p>
+  <h2>4. AI Processing</h2>
+  <p>RidePilot AI uses Claude AI (by Anthropic) to power the AI Strategist, Pre-Shift Briefing, Screenshot Import, and Receipt Scanner features. When you use these features, relevant data is sent to Anthropic's API for processing. Anthropic's privacy policy applies to this processing. We do not share your personally identifiable information with Anthropic beyond what is necessary to provide these features.</p>
 
-    <h2>Third-Party Services</h2>
-    <ul>
-      <li><strong>Supabase:</strong> Database and authentication (supabase.com)</li>
-      <li><strong>Anthropic Claude:</strong> AI analysis (anthropic.com)</li>
-      <li><strong>Expo:</strong> Mobile app platform (expo.dev)</li>
-    </ul>
+  <h2>5. Third-Party Services</h2>
+  <p>We use the following third-party services: Supabase (database), Anthropic (AI), RevenueCat (subscription management), and Apple/Google (payment processing). Each has their own privacy policies governing their use of data.</p>
 
-    <h2>Data Sharing</h2>
-    <p>We do not sell, trade, or rent your personal information to third parties. We do not share your data with advertisers. Your trip data is used solely to provide the RidePilot AI service to you.</p>
+  <h2>6. Account Deletion</h2>
+  <p>You may delete your account at any time by navigating to Settings → Danger Zone → Delete My Account within the App. Upon deletion, all your personal data including trips, expenses, and earnings history will be permanently deleted from our systems within 30 days. Note that deleting your account does not automatically cancel your subscription — please cancel your subscription in your App Store settings before or after deleting your account.</p>
 
-    <h2>Your Rights</h2>
-    <ul>
-      <li>Access the data we hold about you</li>
-      <li>Correct inaccurate data</li>
-      <li>Request deletion of your data</li>
-      <li>Export your data</li>
-      <li>Withdraw consent at any time</li>
-    </ul>
+  <h2>7. Data Retention</h2>
+  <p>We retain your data for as long as your account is active. If you delete your account, your data will be permanently deleted within 30 days, except where we are required by law to retain it.</p>
 
-    <h2>Children's Privacy</h2>
-    <p>RidePilot AI is not directed to children under 13. We do not knowingly collect information from children under 13.</p>
+  <h2>8. Children's Privacy</h2>
+  <p>RidePilot AI is not intended for use by individuals under the age of 18. We do not knowingly collect personal information from children.</p>
 
-    <h2>Changes to This Policy</h2>
-    <p>We may update this Privacy Policy from time to time. We will notify you of significant changes through the app or by email.</p>
+  <h2>9. Changes to This Policy</h2>
+  <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new policy on this page and updating the "Last updated" date.</p>
 
-    <h2>Contact Us</h2>
-    <p>If you have questions about this Privacy Policy or your data, contact us at:<br/>
-    <a href="mailto:support@ridepilotai.app">support@ridepilotai.app</a></p>
-  </div>
-  <footer>© 2026 RidePilot AI · <a href="index.html">Home</a></footer>
+  <h2>10. Contact Us</h2>
+  <p>If you have questions about this Privacy Policy or wish to request deletion of your data, contact us at <a href="mailto:support@ridepilotai.com">support@ridepilotai.com</a></p>
+
+  <hr>
+  <p style="font-size:13px;color:#4A5568;">© 2026 Kofi Danso · RidePilot AI · Grand Junction, CO</p>
 </body>
 </html>
